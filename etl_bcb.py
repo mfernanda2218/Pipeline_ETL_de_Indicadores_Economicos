@@ -18,8 +18,7 @@ SERIES_BCB = {
 }
 
 # String de Conexão com o Banco (Substitua pelos seus dados)
-# Formato: postgresql://usuario:senha@host:porta/nome_banco
-DB_CONNECTION_URI = 'postgresql://postgres:20MFdmt07@localhost:5432/bd_pipeline_etl'
+DB_CONNECTION_URI = 'postgresql://usuaeio:suasenha@localhost:porta/seubancodedados'
 
 def extrair_dados_bcb(codigo_serie):
     """Busca dados brutos da API do Banco Central."""
